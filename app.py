@@ -22,7 +22,7 @@ for name, filepath in model_files.items():
     except Exception as e:
         print(f"[ERROR] Failed to load model {name}: {e}")
 
-# ✅ Use correct training feature names
+# Use correct training feature names
 feature_cols = [
     'Age',
     'Experience',
