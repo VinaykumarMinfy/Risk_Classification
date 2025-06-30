@@ -6,7 +6,7 @@ import io
 # Page config
 st.set_page_config(page_title="Bank Loan Classifier", layout="centered")
 
-st.title("🏦 Bank Customer Loan Classifier")
+st.title(" Bank Customer Loan Classifier")
 st.markdown("Upload your CSV file and get predictions from multiple models.")
 
 # Load models
@@ -43,7 +43,7 @@ feature_cols = [
 ]
 
 # File uploader
-uploaded_file = st.file_uploader("📁 Upload a CSV file", type="csv")
+uploaded_file = st.file_uploader(" Upload a CSV file", type="csv")
 
 if uploaded_file is not None:
     try:
@@ -64,14 +64,14 @@ if uploaded_file is not None:
                 except Exception as e:
                     results_df[f'{name}_Prediction'] = f'Prediction error: {e}'
 
-            st.subheader("📊 Prediction Results")
+            st.subheader(" Prediction Results")
             st.dataframe(results_df, use_container_width=True)
 
             # Download link
             csv_buffer = io.StringIO()
             results_df.to_csv(csv_buffer, index=False)
             st.download_button(
-                label="📥 Download Results as CSV",
+                label=" Download Results as CSV",
                 data=csv_buffer.getvalue(),
                 file_name='predicted_results.csv',
                 mime='text/csv'
