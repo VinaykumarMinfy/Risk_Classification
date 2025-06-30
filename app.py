@@ -1,10 +1,17 @@
 from flask import Flask, render_template, request
 import pandas as pd
 import joblib
+import warnings
+from sklearn.exceptions import InconsistentVersionWarning
+
+# Suppress sklearn-related warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
 
 app = Flask(__name__)
 
-# Load all models
+# Model file paths
 model_files = {
     'DecisionTree': 'DecisionTree_model.pkl',
     'RandomForest': 'RandomForest_model.pkl',
@@ -14,15 +21,16 @@ model_files = {
     'LogisticRegression': 'LogisticRegression_model.pkl',
 }
 
+# Load all models
 models = {}
-for name, filepath in model_files.items():
+for name, path in model_files.items():
     try:
-        models[name] = joblib.load(filepath)
+        models[name] = joblib.load(path)
         print(f"[INFO] Loaded model: {name}")
     except Exception as e:
         print(f"[ERROR] Failed to load model {name}: {e}")
 
-# Use correct training feature names
+# Feature columns used during model training
 feature_cols = [
     'Age',
     'Experience',
@@ -62,11 +70,10 @@ def success():
         except Exception as e:
             results_df[f'{name}_Prediction'] = f'Prediction error: {e}'
 
+    # Convert results to HTML table
     table_html = results_df.to_html(classes='table', index=False)
 
     return render_template('data.html', Y=table_html)
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
