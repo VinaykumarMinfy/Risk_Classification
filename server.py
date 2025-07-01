@@ -10,6 +10,6 @@ def serve_model(model_uri="models:/BankLoanBestModel/Production", host="127.0.0.
             "--env-manager=local"
         ], check=True)
     except subprocess.CalledProcessError as e:
-        print("❌ Failed to start MLflow server:", e)
+        print(" Failed to start MLflow server:", e)
 
 serve_model()
