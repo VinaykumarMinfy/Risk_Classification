@@ -70,9 +70,9 @@ pip install -r requirements.txt
 jupyter notebook Assignment.ipynb
 🖥️ 3. Run Terminal Applications
 python server.py
-python client.py
+python Client.py
 🌐 4. Run Web Interfaces
 Flask:
-python Flask_app.py
+python app.py
 Streamlit:
-streamlit run Streamlit_main.py
+streamlit run streamlit_app.py
