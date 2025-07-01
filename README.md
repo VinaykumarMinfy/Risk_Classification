@@ -66,3 +66,13 @@ An end-to-end machine learning project to predict whether a customer will accept
 ### 📦 1. Install Requirements
 ```bash
 pip install -r requirements.txt
+📊 2. Run Jupyter Notebook
+jupyter notebook Assignment.ipynb
+🖥️ 3. Run Terminal Applications
+python server.py
+python client.py
+🌐 4. Run Web Interfaces
+Flask:
+python Flask_app.py
+Streamlit:
+streamlit run Streamlit_main.py
