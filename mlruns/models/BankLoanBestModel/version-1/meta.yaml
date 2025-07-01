@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1751388705814
+current_stage: Archived
+description: null
+last_updated_timestamp: 1751389010961
+name: BankLoanBestModel
+run_id: b28bc874f21c46898185372228c4432d
+run_link: null
+source: file:///c:/Users/Minfy.DESKTOP-ISK45CC.000/Downloads/saved_models/content/saved_models/mlruns/861246441968712290/b28bc874f21c46898185372228c4432d/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///c:/Users/Minfy.DESKTOP-ISK45CC.000/Downloads/saved_models/content/saved_models/mlruns/861246441968712290/b28bc874f21c46898185372228c4432d/artifacts/model
+user_id: null
+version: 1

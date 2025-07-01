@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Minfy.DESKTOP-ISK45CC.000/Downloads/saved_models/content/saved_models/mlruns/143308085232354594/4a5c1eab1325464eb550f6348091c474/artifacts
+end_time: 1751388417791
+entry_point_name: ''
+experiment_id: '143308085232354594'
+lifecycle_stage: active
+run_id: 4a5c1eab1325464eb550f6348091c474
+run_name: Preprocessing and Tuning
+run_uuid: 4a5c1eab1325464eb550f6348091c474
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751388416595
+status: 4
+tags: []
+user_id: Minfy

@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/548698190023933227/f2bc452ffc8749cd8809c54e3e40efb1/artifacts
+end_time: 1751396307805
+entry_point_name: ''
+experiment_id: '548698190023933227'
+lifecycle_stage: active
+run_id: f2bc452ffc8749cd8809c54e3e40efb1
+run_name: Logistic Regression
+run_uuid: f2bc452ffc8749cd8809c54e3e40efb1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751396307602
+status: 4
+tags: []
+user_id: Minfy
