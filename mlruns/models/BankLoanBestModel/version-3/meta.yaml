@@ -1,9 +1,9 @@
 aliases: []
 creation_timestamp: 1751456558457
-current_stage: Production
+current_stage: Archived
 deployment_job_state: null
 description: null
-last_updated_timestamp: 1751456558653
+last_updated_timestamp: 1751491306519
 metrics:
 - val_accuracy=0.982857@1751456522837
 - val_f1=0.903226@1751456522837
