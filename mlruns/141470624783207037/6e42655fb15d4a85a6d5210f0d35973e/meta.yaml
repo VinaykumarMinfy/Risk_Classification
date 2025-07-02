@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Minfy.DESKTOP-ISK45CC.000/Downloads/saved_models/content/saved_models/mlruns/141470624783207037/6e42655fb15d4a85a6d5210f0d35973e/artifacts
+end_time: 1751456512762
+entry_point_name: ''
+experiment_id: '141470624783207037'
+lifecycle_stage: active
+run_id: 6e42655fb15d4a85a6d5210f0d35973e
+run_name: LogisticRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751456498421
+status: 3
+tags: []
+user_id: Minfy

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/836617556058586663/620bdb6fdc5146569d36e219b750776d/artifacts
+end_time: 1751433047403
+entry_point_name: ''
+experiment_id: '836617556058586663'
+lifecycle_stage: active
+run_id: 620bdb6fdc5146569d36e219b750776d
+run_name: XGBClassifier With SMOTE
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751433041342
+status: 3
+tags: []
+user_id: Minfy

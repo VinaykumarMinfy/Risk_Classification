@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/Minfy.DESKTOP-ISK45CC.000/Downloads/saved_models/content/saved_models/mlruns/141470624783207037/models/m-3bb2aa74201346fc96a427e6bd6d7e42/artifacts
+creation_timestamp: 1751456537179
+experiment_id: '141470624783207037'
+last_updated_timestamp: 1751456542522
+model_id: m-3bb2aa74201346fc96a427e6bd6d7e42
+model_type: null
+name: model
+source_run_id: 459a04dc04cf4c3fba606e523d97122d
+status: 2
+status_message: null

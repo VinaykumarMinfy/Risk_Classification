@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/836617556058586663/3922e9eb0d9644b4bc83116149656779/artifacts
+end_time: 1751433794765
+entry_point_name: ''
+experiment_id: '836617556058586663'
+lifecycle_stage: active
+run_id: 3922e9eb0d9644b4bc83116149656779
+run_name: XGBClassifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751433788106
+status: 3
+tags: []
+user_id: Minfy
