@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Minfy.DESKTOP-ISK45CC.000/Downloads/saved_models/content/saved_models/mlruns/141470624783207037/2292edf1b3194dd68b677d2addfaa294/artifacts
+end_time: 1751517483796
+entry_point_name: ''
+experiment_id: '141470624783207037'
+lifecycle_stage: active
+run_id: 2292edf1b3194dd68b677d2addfaa294
+run_name: SVM
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751517469651
+status: 3
+tags: []
+user_id: Minfy

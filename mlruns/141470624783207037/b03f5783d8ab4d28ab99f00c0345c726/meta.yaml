@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Minfy.DESKTOP-ISK45CC.000/Downloads/saved_models/content/saved_models/mlruns/141470624783207037/b03f5783d8ab4d28ab99f00c0345c726/artifacts
+end_time: 1751516931239
+entry_point_name: ''
+experiment_id: '141470624783207037'
+lifecycle_stage: active
+run_id: b03f5783d8ab4d28ab99f00c0345c726
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751516917690
+status: 3
+tags: []
+user_id: Minfy

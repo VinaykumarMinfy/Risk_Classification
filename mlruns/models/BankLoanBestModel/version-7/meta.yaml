@@ -1,0 +1,22 @@
+aliases: []
+creation_timestamp: 1751516963610
+current_stage: Archived
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1751517171371
+metrics:
+- val_accuracy=0.982857@1751516924076
+- val_f1=0.903226@1751516924076
+- val_precision=0.982456@1751516924076
+- val_recall=0.835821@1751516924076
+model_id: m-0ba3d3fbb88945ea97d70d8c3835760e
+name: BankLoanBestModel
+params: {}
+run_id: b03f5783d8ab4d28ab99f00c0345c726
+run_link: null
+source: models:/m-0ba3d3fbb88945ea97d70d8c3835760e
+status: READY
+status_message: null
+storage_location: file:///c:/Users/Minfy.DESKTOP-ISK45CC.000/Downloads/saved_models/content/saved_models/mlruns/141470624783207037/models/m-0ba3d3fbb88945ea97d70d8c3835760e/artifacts
+user_id: null
+version: 7

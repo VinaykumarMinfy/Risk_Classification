@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Minfy.DESKTOP-ISK45CC.000/Downloads/saved_models/content/saved_models/mlruns/141470624783207037/6cddcad405ac4afca8f3d3774f9c6627/artifacts
+end_time: 1751517447056
+entry_point_name: ''
+experiment_id: '141470624783207037'
+lifecycle_stage: active
+run_id: 6cddcad405ac4afca8f3d3774f9c6627
+run_name: DecisionTree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751517440343
+status: 3
+tags: []
+user_id: Minfy

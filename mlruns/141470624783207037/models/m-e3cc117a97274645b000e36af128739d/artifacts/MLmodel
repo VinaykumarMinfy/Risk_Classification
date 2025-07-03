@@ -1,0 +1,22 @@
+artifact_path: file:///c:/Users/Minfy.DESKTOP-ISK45CC.000/Downloads/saved_models/content/saved_models/mlruns/141470624783207037/models/m-e3cc117a97274645b000e36af128739d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.1
+model_id: m-e3cc117a97274645b000e36af128739d
+model_size_bytes: 784
+model_uuid: m-e3cc117a97274645b000e36af128739d
+prompts: null
+run_id: 466237010b3c438481de1ae6d7edbe4d
+utc_time_created: '2025-07-03 04:28:25.634144'
