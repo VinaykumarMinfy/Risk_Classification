@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Minfy.DESKTOP-ISK45CC.000/Downloads/saved_models/content/saved_models/mlruns/141470624783207037/61b88aea404a45328c9fed7003609223/artifacts
+end_time: 1751514775615
+entry_point_name: ''
+experiment_id: '141470624783207037'
+lifecycle_stage: active
+run_id: 61b88aea404a45328c9fed7003609223
+run_name: KNN
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751514771799
+status: 3
+tags: []
+user_id: Minfy

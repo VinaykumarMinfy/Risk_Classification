@@ -6,7 +6,7 @@ import os
 
 MLFLOW_URL = "http://127.0.0.1:5001/invocations"
 SELECTOR_PATH = "saved_models/selector.pkl"
-CSV_FILE = "New Customer Bank_Personal_Loan.csv" 
+CSV_FILE = "New_Customer_Bank_Personal_Loan.csv" 
 
 if not os.path.exists(SELECTOR_PATH):
     raise FileNotFoundError(f"❌ Selector not found at {SELECTOR_PATH}")

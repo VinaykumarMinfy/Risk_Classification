@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/Minfy.DESKTOP-ISK45CC.000/Downloads/saved_models/content/saved_models/mlruns/141470624783207037/386b4dd9803b4e69b2d552b69032d2cd/artifacts
+end_time: 1751514771795
+entry_point_name: ''
+experiment_id: '141470624783207037'
+lifecycle_stage: active
+run_id: 386b4dd9803b4e69b2d552b69032d2cd
+run_name: GradientBoosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751514766464
+status: 3
+tags: []
+user_id: Minfy
